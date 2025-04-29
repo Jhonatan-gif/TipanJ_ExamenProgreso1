@@ -11,10 +11,10 @@ namespace TipanJ_ExamenProgreso1.Models
         public int IdCliente { get; set; }
         [MaxLength(100)]
         [DisplayName("Ingrese el Nombre: ")]
-        public int DiasHospedaje { get; set; }
         public String Nombre { get; set; }
         [MaxLength(4)]
-        [Required]
+        public int DiasHospedaje { get; set; }
+        [MaxLength(4)]
         public DateTime FechaDeNacimiento { get; set; }
         public float PuntuacionServicio { get; set; }
         public bool DescuentorPorRecomendacion { get; set; }
